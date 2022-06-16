@@ -12,4 +12,5 @@ fn main() {
     // but the question is why not 3? obviously, the COUNTER is added once in each of all the 3 rs files...
     println!("The value of COUNTER is {:?}.", COUNTER);
     println!("Why not 3?");
+
 }
