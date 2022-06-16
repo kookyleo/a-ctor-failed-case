@@ -9,6 +9,7 @@ fn init() {
 
 fn main() {
     // It is going to print 2,
-    // but the question is why not 3? obviously, the COUNTER is added once in each of the 3 rs files...
+    // but the question is why not 3? obviously, the COUNTER is added once in each of all the 3 rs files...
     println!("The value of COUNTER is {:?}.", COUNTER);
+    println!("Why not 3?");
 }

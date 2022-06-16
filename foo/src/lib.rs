@@ -9,3 +9,9 @@ fn init() {
 }
 
 mod bar;
+
+#[test]
+fn test(){
+    // It is going to print 2, this is as expected.
+    println!("The value of COUNTER is {:?}.", COUNTER);
+}
