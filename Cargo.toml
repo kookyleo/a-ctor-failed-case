@@ -1,0 +1,13 @@
+[package]
+name = "a-ctor-failed-case"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ctor = "0.1.22"
+foo = { path = "foo" }
+
+[workspace]
+members = [
+    "foo",
+]
